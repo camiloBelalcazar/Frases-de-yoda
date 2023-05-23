@@ -1,0 +1,32 @@
+.quoteBox__btn {
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(253, 253, 253);
+    cursor: pointer;
+    border-radius: .7rem;
+}
+.quoteBox__btn:hover{
+    box-shadow: 0 0 5px rgb(0, 255, 128),
+    0 0 25px rgb(0, 255, 55),
+    0 0 100px rgb(72, 255, 0);
+}
+
+.quoteBox__phrase {
+    display: block;
+    margin: 0 ;
+    background-color:  rgba(255, 248, 220, 0.767);
+    cursor: pointer;
+    border-radius: .4rem;
+    padding: 10px;
+}
+
+.quoteBox__phrase{
+color: black;
+    box-shadow: 0 0 5px rgb(0, 255, 128),
+    0 0 25px rgb(0, 255, 55),
+    0 0 100px rgb(72, 255, 0);
+}
+
+.quoteBox__btn{
+    padding-bottom: 5px;
+}

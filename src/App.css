@@ -1,0 +1,35 @@
+.app {
+    
+    background-size: cover;
+    background-position: center;
+    color: rgb(4, 230, 79);
+    min-height: 100vh;
+    display: grid;
+    justify-items: center;
+}
+
+.app.yoda1 {
+    background-image: url(/images/yoda1.jpg);
+}
+
+.app.yoda2 {
+    background-image: url(/images/yoda2.jpg);
+}
+
+.app.yoda3 {
+    background-image: url(/images/yoda3.jpg);
+}
+
+.app.yoda4 {
+    background-image: url(/images/yoda4.jpg);
+}
+
+
+.app__container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    align-items: center;
+    justify-items: center;
+    width: min(100%, 300px);
+    padding: 0 10px;
+}
